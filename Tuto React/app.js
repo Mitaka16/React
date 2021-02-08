@@ -99,7 +99,7 @@ class Incrementer extends React.Component {
   }
 
   render() {
-    return <div>
+    return <div><br />
     Valeur: {this.state.n} 
     <button onClick={this.toggle}>{this.label()}</button>
     <button onClick={this.reset}>Reset</button></div>
